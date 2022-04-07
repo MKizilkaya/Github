@@ -17,6 +17,10 @@ public class calc{
         else if(secim==3)
         System.out.println("Sonuc:"+(sayi1*sayi2));
         else if(secim==4){
+            while(sayi2==0){
+            System.out.println("HATA! Sayi 0'a bolunemez.   Ikinci sayiyi tekrar giriniz:");
+            sayi2=scan.nextDouble();
+            }
         System.out.println("Sonuc:"+(sayi1/sayi2));
         }
         else
